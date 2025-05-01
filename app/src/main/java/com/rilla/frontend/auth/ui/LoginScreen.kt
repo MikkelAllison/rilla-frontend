@@ -6,9 +6,17 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
-fun LoginScreen(onLoginSuccess: () -> Unit) {
-    Button(onClick = onLoginSuccess) {
-        Text("Log in (placeholder)")
+fun LoginScreen(
+    viewModel: LoginViewModel = viewModel(),
+    onLoginSuccess: () -> Unit
+) {
+    val uiState by viewModel.uiState.collectAsState()
+
+    Column {
+        // Inputs (TextFields)
+        // Submit Button
+        // Loading indicator if uiState.isLoading
+        // Error text if uiState.error != null
     }
 }
 
