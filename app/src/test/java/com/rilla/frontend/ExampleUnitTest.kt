@@ -1,4 +1,4 @@
-package com.example.rilla_frontend
+package com.rilla.frontend
 
 import org.junit.Test
 

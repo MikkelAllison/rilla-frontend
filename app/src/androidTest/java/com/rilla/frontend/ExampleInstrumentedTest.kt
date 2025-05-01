@@ -1,4 +1,4 @@
-package com.example.rilla_frontend
+package com.rilla.frontend
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
