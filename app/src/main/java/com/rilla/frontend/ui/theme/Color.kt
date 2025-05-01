@@ -1,4 +1,4 @@
-package com.example.rilla_frontend.ui.theme
+package com.rilla.frontend.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

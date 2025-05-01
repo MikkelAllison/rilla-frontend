@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.rilla_frontend"
+    namespace = "com.rilla.frontend"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.rilla_frontend"
+        applicationId = "com.rilla.frontend"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -56,4 +56,6 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation(libs.androidx.navigation.compose)
+
 }
